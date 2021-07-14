@@ -1,0 +1,61 @@
+random-writers: (g=0): rw=randrw, bs=(R) 32.0KiB-32.0KiB, (W) 32.0KiB-32.0KiB, (T) 32.0KiB-32.0KiB, ioengine=libaio, iodepth=4
+fio-3.27-32-g77c7-dirty
+Starting 1 process
+random-writers: Laying out IO file (1 file / 1024MiB)
+
+random-writers: (groupid=0, jobs=1): err= 0: pid=157820: Tue Jul 13 11:14:26 2021
+  read: IOPS=588, BW=18.4MiB/s (19.3MB/s)(5520MiB/300001msec)
+    slat (usec): min=14, max=312237, avg=1435.77, stdev=4784.22
+    clat (usec): min=15, max=975285, avg=2542.94, stdev=10375.96
+     lat (usec): min=97, max=976521, avg=3980.49, stdev=11808.28
+    clat percentiles (usec):
+     |  1.00th=[   355],  5.00th=[   474], 10.00th=[   553], 20.00th=[  1106],
+     | 30.00th=[  1319], 40.00th=[  1483], 50.00th=[  1745], 60.00th=[  2008],
+     | 70.00th=[  2311], 80.00th=[  2737], 90.00th=[  3654], 95.00th=[  7046],
+     | 99.00th=[ 12649], 99.50th=[ 17433], 99.90th=[ 79168], 99.95th=[156238],
+     | 99.99th=[325059]
+   bw (  KiB/s): min=  512, max=33600, per=100.00%, avg=19097.24, stdev=7203.72, samples=591
+   iops        : min=   16, max= 1050, avg=596.72, stdev=225.10, samples=591
+  write: IOPS=587, BW=18.4MiB/s (19.3MB/s)(5510MiB/300001msec); 0 zone resets
+    slat (usec): min=118, max=4234, avg=185.67, stdev=44.43
+    clat (usec): min=81, max=975352, avg=2567.15, stdev=10030.89
+     lat (usec): min=207, max=975627, avg=2754.01, stdev=10036.71
+    clat percentiles (usec):
+     |  1.00th=[   314],  5.00th=[   416], 10.00th=[   529], 20.00th=[  1106],
+     | 30.00th=[  1319], 40.00th=[  1500], 50.00th=[  1745], 60.00th=[  2024],
+     | 70.00th=[  2311], 80.00th=[  2769], 90.00th=[  3720], 95.00th=[  7242],
+     | 99.00th=[ 12911], 99.50th=[ 17957], 99.90th=[ 79168], 99.95th=[183501],
+     | 99.99th=[299893]
+   bw (  KiB/s): min=  448, max=33344, per=100.00%, avg=19065.34, stdev=7248.13, samples=591
+   iops        : min=   14, max= 1042, avg=595.72, stdev=226.49, samples=591
+  lat (usec)   : 20=0.01%, 100=0.05%, 250=0.36%, 500=6.23%, 750=11.77%
+  lat (usec)   : 1000=0.38%
+  lat (msec)   : 2=40.51%, 4=31.99%, 10=6.03%, 20=2.29%, 50=0.25%
+  lat (msec)   : 100=0.06%, 250=0.06%, 500=0.02%, 1000=0.01%
+  cpu          : usr=1.82%, sys=24.51%, ctx=153220, majf=0, minf=44
+  IO depths    : 1=0.1%, 2=0.1%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=176625,176313,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+
+Run status group 0 (all jobs):
+   READ: bw=18.4MiB/s (19.3MB/s), 18.4MiB/s-18.4MiB/s (19.3MB/s-19.3MB/s), io=5520MiB (5788MB), run=300001-300001msec
+  WRITE: bw=18.4MiB/s (19.3MB/s), 18.4MiB/s-18.4MiB/s (19.3MB/s-19.3MB/s), io=5510MiB (5777MB), run=300001-300001msec
+
+
+Batch Job Summary Report (version 21.01.1) for Job "fioTest" (1470602) on tave
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2021-07-13T11:09:15 2021-07-13T11:09:15 2021-07-13T11:09:16 2021-07-13T11:14:29   00:05:13   00:15:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    afilipci         g138       normal        1     40.444 kJ
+

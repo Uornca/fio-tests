@@ -1,0 +1,47 @@
+random-writers: (g=0): rw=randwrite, bs=(R) 32.0KiB-32.0KiB, (W) 32.0KiB-32.0KiB, (T) 32.0KiB-32.0KiB, ioengine=libaio, iodepth=4
+fio-3.27-32-g77c7-dirty
+Starting 1 process
+random-writers: Laying out IO file (1 file / 1024MiB)
+
+random-writers: (groupid=0, jobs=1): err= 0: pid=186715: Fri Jul  9 14:19:57 2021
+  write: IOPS=4457, BW=139MiB/s (146MB/s)(40.8GiB/300001msec); 0 zone resets
+    slat (usec): min=92, max=430632, avg=202.88, stdev=3055.72
+    clat (usec): min=10, max=454445, avg=677.29, stdev=6258.36
+     lat (usec): min=136, max=454585, avg=881.31, stdev=7036.73
+    clat percentiles (usec):
+     |  1.00th=[   404],  5.00th=[   408], 10.00th=[   408], 20.00th=[   412],
+     | 30.00th=[   416], 40.00th=[   416], 50.00th=[   420], 60.00th=[   429],
+     | 70.00th=[   445], 80.00th=[   461], 90.00th=[   486], 95.00th=[   519],
+     | 99.00th=[   578], 99.50th=[   676], 99.90th=[119014], 99.95th=[147850],
+     | 99.99th=[308282]
+   bw (  KiB/s): min= 1216, max=237184, per=100.00%, avg=142672.54, stdev=97723.25, samples=599
+   iops        : min=   38, max= 7412, avg=4458.51, stdev=3053.85, samples=599
+  lat (usec)   : 20=0.01%, 250=0.01%, 500=93.13%, 750=6.47%, 1000=0.13%
+  lat (msec)   : 2=0.03%, 4=0.02%, 10=0.02%, 20=0.02%, 50=0.03%
+  lat (msec)   : 100=0.04%, 250=0.11%, 500=0.01%
+  cpu          : usr=5.79%, sys=63.30%, ctx=1641, majf=0, minf=38
+  IO depths    : 1=0.1%, 2=0.1%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=0,1337292,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+
+Run status group 0 (all jobs):
+  WRITE: bw=139MiB/s (146MB/s), 139MiB/s-139MiB/s (146MB/s-146MB/s), io=40.8GiB (43.8GB), run=300001-300001msec
+
+
+Batch Job Summary Report (version 21.01.1) for Job "fioTest" (1470535) on tave
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2021-07-09T14:14:53 2021-07-09T14:14:53 2021-07-09T14:14:54 2021-07-09T14:20:01   00:05:07   00:06:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    afilipci         g138       normal        1     39.549 kJ
+

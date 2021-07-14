@@ -1,0 +1,104 @@
+random-writers: (g=0): rw=randrw, bs=(R) 32.0KiB-32.0KiB, (W) 32.0KiB-32.0KiB, (T) 32.0KiB-32.0KiB, ioengine=libaio, iodepth=4
+fio-3.27-32-g77c7-dirty
+Starting 1 process
+random-writers: (g=0): rw=randrw, bs=(R) 32.0KiB-32.0KiB, (W) 32.0KiB-32.0KiB, (T) 32.0KiB-32.0KiB, ioengine=libaio, iodepth=4
+fio-3.27-32-g77c7-dirty
+Starting 1 process
+random-writers: Laying out IO file (1 file / 1024MiB)
+
+random-writers: (groupid=0, jobs=1): err= 0: pid=170330: Tue Jul 13 11:59:58 2021
+  read: IOPS=455, BW=14.2MiB/s (14.9MB/s)(4273MiB/300001msec)
+    slat (usec): min=15, max=329560, avg=1914.97, stdev=5670.55
+    clat (usec): min=81, max=1013.5k, avg=3321.45, stdev=12234.14
+     lat (usec): min=100, max=1014.6k, avg=5238.59, stdev=14082.48
+    clat percentiles (usec):
+     |  1.00th=[   404],  5.00th=[   545], 10.00th=[   594], 20.00th=[  1188],
+     | 30.00th=[  1352], 40.00th=[  1582], 50.00th=[  1844], 60.00th=[  2114],
+     | 70.00th=[  2540], 80.00th=[  3195], 90.00th=[  7570], 95.00th=[ 10290],
+     | 99.00th=[ 18220], 99.50th=[ 31327], 99.90th=[109577], 99.95th=[185598],
+     | 99.99th=[851444]
+   bw (  KiB/s): min=  128, max=30464, per=100.00%, avg=14720.73, stdev=6087.66, samples=594
+   iops        : min=    4, max=  952, avg=460.02, stdev=190.24, samples=594
+  write: IOPS=456, BW=14.3MiB/s (14.9MB/s)(4276MiB/300001msec); 0 zone resets
+    slat (usec): min=119, max=3514, avg=194.25, stdev=52.40
+    clat (usec): min=11, max=1014.3k, avg=3268.99, stdev=10728.54
+     lat (usec): min=211, max=1014.4k, avg=3464.42, stdev=10736.12
+    clat percentiles (usec):
+     |  1.00th=[   375],  5.00th=[   506], 10.00th=[   545], 20.00th=[  1172],
+     | 30.00th=[  1336], 40.00th=[  1532], 50.00th=[  1827], 60.00th=[  2114],
+     | 70.00th=[  2507], 80.00th=[  3228], 90.00th=[  7570], 95.00th=[ 10290],
+     | 99.00th=[ 17957], 99.50th=[ 30540], 99.90th=[105382], 99.95th=[179307],
+     | 99.99th=[325059]
+   bw (  KiB/s): min=   64, max=32256, per=100.00%, avg=14756.89, stdev=6120.46, samples=593
+   iops        : min=    2, max= 1008, avg=461.15, stdev=191.27, samples=593
+  lat (usec)   : 20=0.01%, 100=0.02%, 250=0.14%, 500=3.57%, 750=12.23%
+  lat (usec)   : 1000=0.43%
+  lat (msec)   : 2=40.23%, 4=26.91%, 10=10.95%, 20=4.68%, 50=0.56%
+  lat (msec)   : 100=0.17%, 250=0.08%, 500=0.02%, 1000=0.01%, 2000=0.01%
+  cpu          : usr=1.52%, sys=20.69%, ctx=125206, majf=0, minf=43
+  IO depths    : 1=0.1%, 2=0.1%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=136740,136845,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+
+Run status group 0 (all jobs):
+   READ: bw=14.2MiB/s (14.9MB/s), 14.2MiB/s-14.2MiB/s (14.9MB/s-14.9MB/s), io=4273MiB (4481MB), run=300001-300001msec
+  WRITE: bw=14.3MiB/s (14.9MB/s), 14.3MiB/s-14.3MiB/s (14.9MB/s-14.9MB/s), io=4276MiB (4484MB), run=300001-300001msec
+
+random-writers: (groupid=0, jobs=1): err= 0: pid=144642: Tue Jul 13 12:00:05 2021
+  read: IOPS=393, BW=12.3MiB/s (12.9MB/s)(3685MiB/300011msec)
+    slat (usec): min=15, max=363835, avg=2267.17, stdev=6303.18
+    clat (usec): min=25, max=940617, avg=3856.18, stdev=13079.89
+     lat (usec): min=124, max=941454, avg=6125.42, stdev=15047.78
+    clat percentiles (usec):
+     |  1.00th=[   441],  5.00th=[   562], 10.00th=[   619], 20.00th=[  1254],
+     | 30.00th=[  1450], 40.00th=[  1729], 50.00th=[  2008], 60.00th=[  2343],
+     | 70.00th=[  2835], 80.00th=[  4490], 90.00th=[  8979], 95.00th=[ 11207],
+     | 99.00th=[ 21627], 99.50th=[ 36439], 99.90th=[104334], 99.95th=[258999],
+     | 99.99th=[893387]
+   bw (  KiB/s): min=  448, max=26688, per=100.00%, avg=12702.79, stdev=5339.51, samples=594
+   iops        : min=   14, max=  834, avg=396.96, stdev=166.86, samples=594
+  write: IOPS=392, BW=12.3MiB/s (12.9MB/s)(3678MiB/300011msec); 0 zone resets
+    slat (usec): min=120, max=2232, avg=192.58, stdev=46.38
+    clat (usec): min=85, max=943189, avg=3794.30, stdev=10955.22
+     lat (usec): min=261, max=943373, avg=3988.10, stdev=10963.87
+    clat percentiles (usec):
+     |  1.00th=[   400],  5.00th=[   537], 10.00th=[   553], 20.00th=[  1254],
+     | 30.00th=[  1450], 40.00th=[  1713], 50.00th=[  2008], 60.00th=[  2376],
+     | 70.00th=[  2868], 80.00th=[  4490], 90.00th=[  9110], 95.00th=[ 11338],
+     | 99.00th=[ 21103], 99.50th=[ 34866], 99.90th=[107480], 99.95th=[242222],
+     | 99.99th=[316670]
+   bw (  KiB/s): min=  192, max=29504, per=100.00%, avg=12679.08, stdev=5486.67, samples=594
+   iops        : min=    6, max=  922, avg=396.22, stdev=171.46, samples=594
+  lat (usec)   : 50=0.01%, 100=0.01%, 250=0.04%, 500=1.81%, 750=12.23%
+  lat (usec)   : 1000=0.20%
+  lat (msec)   : 2=35.48%, 4=28.85%, 10=13.64%, 20=6.61%, 50=0.83%
+  lat (msec)   : 100=0.19%, 250=0.06%, 500=0.04%, 1000=0.01%
+  cpu          : usr=1.35%, sys=17.74%, ctx=113160, majf=0, minf=44
+  IO depths    : 1=0.1%, 2=0.1%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=117914,117698,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+
+Run status group 0 (all jobs):
+   READ: bw=12.3MiB/s (12.9MB/s), 12.3MiB/s-12.3MiB/s (12.9MB/s-12.9MB/s), io=3685MiB (3864MB), run=300011-300011msec
+  WRITE: bw=12.3MiB/s (12.9MB/s), 12.3MiB/s-12.3MiB/s (12.9MB/s-12.9MB/s), io=3678MiB (3857MB), run=300011-300011msec
+
+
+Batch Job Summary Report (version 21.01.1) for Job "fioRandrw" (1470608) on tave
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2021-07-13T11:54:54 2021-07-13T11:54:54 2021-07-13T11:54:55 2021-07-13T12:00:07   00:05:12   00:15:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    afilipci         g138       normal        2     79.851 kJ
+

@@ -1,0 +1,22 @@
+srun: First task exited 30s ago
+srun: StepId=1470639.0 tasks 16-31: running
+srun: StepId=1470639.0 tasks 0-15: exited
+srun: launch/slurm: _step_signal: Terminating StepId=1470639.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: nid00105: task 22: Killed
+srun: launch/slurm: _step_signal: Terminating StepId=1470639.0
+srun: error: nid00104: task 21: Killed
+srun: error: nid00113: task 30: Killed
+srun: error: nid00109: task 26: Killed
+srun: error: nid00101: task 18: Killed
+srun: error: nid00112: task 29: Killed
+srun: error: nid00107: task 24: Killed
+srun: error: nid00111: task 28: Killed
+srun: error: nid00100: task 17: Killed
+srun: error: nid00108: task 25: Killed
+srun: error: nid00103: task 20: Killed
+srun: error: nid00102: task 19: Killed
+srun: error: nid00099: task 16: Killed
+srun: error: nid00110: task 27: Killed
+srun: error: nid00114: task 31: Killed
+srun: error: nid00106: task 23: Killed
