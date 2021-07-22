@@ -1,0 +1,6 @@
+srun: First task exited 30s ago
+srun: StepId=1471162.0 tasks 0,2-8,10,12,15,19-21,23,26,28-29,32,35,37,40-42,44-45,48-49,52-74,77-82,84-95: running
+srun: StepId=1471162.0 tasks 1,9,11,13-14,16-18,22,24-25,27,30-31,33-34,36,38-39,43,46-47,50-51,75-76,83: exited
+srun: launch/slurm: _step_signal: Terminating StepId=1471162.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: Timed out waiting for job step to complete

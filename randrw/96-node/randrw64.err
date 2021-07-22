@@ -1,0 +1,62 @@
+srun: First task exited 30s ago
+srun: StepId=1471339.0 tasks 32,34-35,37-40,42-45,47-48,50-53,55-61,63-95: running
+srun: StepId=1471339.0 tasks 0-31,33,36,41,46,49,54,62: exited
+srun: launch/slurm: _step_signal: Terminating StepId=1471339.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: nid00161: task 65: Killed
+srun: launch/slurm: _step_signal: Terminating StepId=1471339.0
+srun: error: nid00189: task 93: Killed
+srun: error: nid00163: task 67: Killed
+srun: error: nid00173: task 77: Killed
+srun: error: nid00179: task 83: Killed
+srun: error: nid00186: task 90: Killed
+srun: error: nid00171: task 75: Killed
+srun: error: nid00160: task 64: Killed
+srun: error: nid00176: task 80: Killed
+srun: error: nid00165: task 69: Killed
+srun: error: nid00168: task 72: Killed
+srun: error: nid00174: task 78: Killed
+srun: error: nid00184: task 88: Killed
+srun: error: nid00191: task 95: Killed
+srun: error: nid00126: task 38: Killed
+srun: error: nid00183: task 87: Killed
+srun: error: nid00166: task 70: Killed
+srun: error: nid00131: task 43: Killed
+srun: error: nid00152: task 56: Killed
+srun: error: nid00187: task 91: Killed
+srun: error: nid00188: task 92: Killed
+srun: error: nid00151: task 55: Killed
+srun: error: nid00162: task 66: Killed
+srun: error: nid00181: task 85: Killed
+srun: error: nid00135: task 47: Killed
+srun: error: nid00127: task 39: Killed
+srun: error: nid00175: task 79: Killed
+srun: error: nid00159: task 63: Killed
+srun: error: nid00138: task 50: Killed
+srun: error: nid00125: task 37: Killed
+srun: error: nid00148: task 52: Killed
+srun: error: nid00122: task 34: Killed
+srun: error: nid00130: task 42: Killed
+srun: error: nid00156: task 60: Killed
+srun: error: nid00167: task 71: Killed
+srun: error: nid00178: task 82: Killed
+srun: error: nid00170: task 74: Killed
+srun: error: nid00185: task 89: Killed
+srun: error: nid00172: task 76: Killed
+srun: error: nid00180: task 84: Killed
+srun: error: nid00169: task 73: Killed
+srun: error: nid00177: task 81: Killed
+srun: error: nid00164: task 68: Killed
+srun: error: nid00182: task 86: Killed
+srun: error: nid00190: task 94: Killed
+srun: error: nid00120: task 32: Killed
+srun: error: nid00157: task 61: Killed
+srun: error: nid00149: task 53: Killed
+srun: error: nid00133: task 45: Killed
+srun: error: nid00123: task 35: Killed
+srun: error: nid00128: task 40: Killed
+srun: error: nid00154: task 58: Killed
+srun: error: nid00136: task 48: Killed
+srun: error: nid00153: task 57: Killed
+srun: error: nid00132: task 44: Killed
+srun: error: nid00139: task 51: Killed

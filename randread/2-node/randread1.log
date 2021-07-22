@@ -1,0 +1,76 @@
+random-readers: (g=0): rw=randread, bs=(R) 32.0KiB-32.0KiB, (W) 32.0KiB-32.0KiB, (T) 32.0KiB-32.0KiB, ioengine=libaio, iodepth=4
+fio-3.27-32-g77c7-dirty
+Starting 1 process
+random-readers: (g=0): rw=randread, bs=(R) 32.0KiB-32.0KiB, (W) 32.0KiB-32.0KiB, (T) 32.0KiB-32.0KiB, ioengine=libaio, iodepth=4
+fio-3.27-32-g77c7-dirty
+Starting 1 process
+random-readers: Laying out IO file (1 file / 1024MiB)
+
+random-readers: (groupid=0, jobs=1): err= 0: pid=146849: Fri Jul 16 11:34:28 2021
+  read: IOPS=1041, BW=32.6MiB/s (34.1MB/s)(9765MiB/300001msec)
+    slat (usec): min=21, max=40672, avg=918.45, stdev=520.79
+    clat (usec): min=24, max=935344, avg=2885.55, stdev=8680.35
+     lat (usec): min=121, max=936387, avg=3805.64, stdev=8709.63
+    clat percentiles (usec):
+     |  1.00th=[ 2180],  5.00th=[ 2245], 10.00th=[ 2311], 20.00th=[ 2409],
+     | 30.00th=[ 2507], 40.00th=[ 2573], 50.00th=[ 2671], 60.00th=[ 2737],
+     | 70.00th=[ 2835], 80.00th=[ 2966], 90.00th=[ 3163], 95.00th=[ 3425],
+     | 99.00th=[ 7177], 99.50th=[10683], 99.90th=[16909], 99.95th=[20055],
+     | 99.99th=[42730]
+   bw (  KiB/s): min= 3552, max=39207, per=100.00%, avg=33350.25, stdev=6260.89, samples=300
+   iops        : min=   10, max= 1250, avg=1056.21, stdev=171.92, samples=592
+  lat (usec)   : 50=0.01%, 100=0.01%, 250=0.04%, 1000=0.03%
+  lat (msec)   : 2=0.09%, 4=97.84%, 10=1.39%, 20=0.56%, 50=0.04%
+  lat (msec)   : 100=0.01%, 1000=0.01%
+  cpu          : usr=1.73%, sys=22.77%, ctx=312570, majf=0, minf=70
+  IO depths    : 1=0.1%, 2=0.1%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=312490,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+
+Run status group 0 (all jobs):
+   READ: bw=32.6MiB/s (34.1MB/s), 32.6MiB/s-32.6MiB/s (34.1MB/s-34.1MB/s), io=9765MiB (10.2GB), run=300001-300001msec
+
+random-readers: (groupid=0, jobs=1): err= 0: pid=109425: Fri Jul 16 11:34:35 2021
+  read: IOPS=1037, BW=32.4MiB/s (34.0MB/s)(9723MiB/300001msec)
+    slat (usec): min=21, max=24448, avg=920.42, stdev=589.56
+    clat (usec): min=10, max=932470, avg=2898.70, stdev=8714.35
+     lat (usec): min=119, max=932720, avg=3821.05, stdev=8763.20
+    clat percentiles (usec):
+     |  1.00th=[ 2180],  5.00th=[ 2245], 10.00th=[ 2311], 20.00th=[ 2376],
+     | 30.00th=[ 2442], 40.00th=[ 2540], 50.00th=[ 2638], 60.00th=[ 2737],
+     | 70.00th=[ 2868], 80.00th=[ 2999], 90.00th=[ 3195], 95.00th=[ 3425],
+     | 99.00th=[ 8717], 99.50th=[11863], 99.90th=[20579], 99.95th=[24511],
+     | 99.99th=[36439]
+   bw (  KiB/s): min= 2786, max=39783, per=100.00%, avg=33197.09, stdev=6839.65, samples=299
+   iops        : min=   16, max= 1286, avg=1046.25, stdev=213.52, samples=594
+  lat (usec)   : 20=0.01%, 100=0.01%, 250=0.04%, 1000=0.03%
+  lat (msec)   : 2=0.09%, 4=97.78%, 10=1.26%, 20=0.67%, 50=0.11%
+  lat (msec)   : 1000=0.01%
+  cpu          : usr=2.30%, sys=24.37%, ctx=311218, majf=0, minf=70
+  IO depths    : 1=0.1%, 2=0.1%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=311137,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+
+Run status group 0 (all jobs):
+   READ: bw=32.4MiB/s (34.0MB/s), 32.4MiB/s-32.4MiB/s (34.0MB/s-34.0MB/s), io=9723MiB (10.2GB), run=300001-300001msec
+
+
+Batch Job Summary Report (version 21.01.1) for Job "fioRandRead" (1470897) on tave
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2021-07-16T11:29:24 2021-07-16T11:29:24 2021-07-16T11:29:24 2021-07-16T11:34:37   00:05:13   00:15:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    afilipci         g138       normal        2     80.158 kJ
+

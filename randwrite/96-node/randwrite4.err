@@ -1,0 +1,5 @@
+srun: First task exited 30s ago
+srun: StepId=1471150.0 tasks 0-9,11,13-17,20-26,31,36,39,43-44,46-49,52,55,58,60,62-63,65-71,73-74,76-78,82,84-85,87,90-92,94-95: running
+srun: StepId=1471150.0 tasks 10,12,18-19,27-30,32-35,37-38,40-42,45,50-51,53-54,56-57,59,61,64,72,75,79-81,83,86,88-89,93: exited
+srun: launch/slurm: _step_signal: Terminating StepId=1471150.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

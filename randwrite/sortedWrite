@@ -1,42 +1,70 @@
-16 nodes, 4 jobs/node, 64 total jobs = 2849
-32 nodes, 2 jobs/node, 64 total jobs = 2842.5
-4 nodes, 8 jobs/node, 32 total jobs = 2686
-8 nodes, 8 jobs/node, 64 total jobs = 2570
-16 nodes, 2 jobs/node, 32 total jobs = 2468
-8 nodes, 4 jobs/node, 32 total jobs = 2438
-32 nodes, 4 jobs/node, 128 total jobs = 2430.4
-16 nodes, 8 jobs/node, 128 total jobs = 2422
-32 nodes, 1 jobs/node, 32 total jobs = 2117.5
-4 nodes, 16 jobs/node, 64 total jobs = 2062
-2 nodes, 8 jobs/node, 16 total jobs = 2055
-2 nodes, 16 jobs/node, 32 total jobs = 2014
-32 nodes, 8 jobs/node, 256 total jobs = 1949.1
-4 nodes, 4 jobs/node, 16 total jobs = 1739
-16 nodes, 16 jobs/node, 256 total jobs = 1664.6
-8 nodes, 2 jobs/node, 16 total jobs = 1650
-1 nodes, 16 jobs/node, 16 total jobs = 1640
-32 nodes, 32 jobs/node, 1024 total jobs = 1597.2
-8 nodes, 16 jobs/node, 128 total jobs = 1591
-1 nodes, 32 jobs/node, 32 total jobs = 1561
-16 nodes, 1 jobs/node, 16 total jobs = 1520.7
-32 nodes, 16 jobs/node, 512 total jobs = 1447.1
-2 nodes, 32 jobs/node, 64 total jobs = 1358
-16 nodes, 32 jobs/node, 512 total jobs = 1348.4
-1 nodes, 8 jobs/node, 8 total jobs = 1166
-2 nodes, 4 jobs/node, 8 total jobs = 1138
-8 nodes, 32 jobs/node, 256 total jobs = 1071
-4 nodes, 32 jobs/node, 128 total jobs = 985
-4 nodes, 2 jobs/node, 8 total jobs = 979
-8 nodes, 1 jobs/node, 8 total jobs = 837.3
-1 nodes, 4 jobs/node, 4 total jobs = 566
-2 nodes, 2 jobs/node, 4 total jobs = 501
-4 nodes, 1 jobs/node, 4 total jobs = 476
-64 nodes, 8 jobs/node, 512 total jobs = 319.156
-64 nodes, 16 jobs/node, 1024 total jobs = 318.659
-64 nodes, 4 jobs/node, 256 total jobs = 305.196
-64 nodes, 32 jobs/node, 2048 total jobs = 294.42
-1 nodes, 2 jobs/node, 2 total jobs = 287
-64 nodes, 2 jobs/node, 128 total jobs = 271.518
-64 nodes, 1 jobs/node, 64 total jobs = 229.526
-2 nodes, 1 jobs/node, 2 total jobs = 214
-1 nodes, 1 jobs/node, 1 total jobs = 139
+64 nodes 1 jobs (64 total jobs);  2541.2 MB/s ; iops: 81284
+32 nodes 2 jobs (64 total jobs);  2452 MB/s ; iops: 78489
+64 nodes 2 jobs (128 total jobs);  2425.4 MB/s ; iops: 77677
+64 nodes 4 jobs (256 total jobs);  2277.7 MB/s ; iops: 73455
+32 nodes 4 jobs (128 total jobs);  2238.3 MB/s ; iops: 71882
+32 nodes 1 jobs (32 total jobs);  2176 MB/s ; iops: 69643
+64 nodes 8 jobs (512 total jobs);  2162.7 MB/s ; iops: 70427
+64 nodes 16 jobs (1024 total jobs);  2138.4 MB/s ; iops: 70296
+16 nodes 4 jobs (64 total jobs);  2097.8 MB/s ; iops: 67202
+64 nodes 32 jobs (2048 total jobs);  2053.7 MB/s ; iops: 66111
+8 nodes 4 jobs (32 total jobs);  2000 MB/s ; iops: 64038
+16 nodes 2 jobs (32 total jobs);  1966.3 MB/s ; iops: 62914
+150 nodes 8 jobs (1200 total jobs);  1953.17 MB/s ; iops: 63785
+150 nodes 1 jobs (150 total jobs);  1917 MB/s ; iops: 62205
+32 nodes 8 jobs (256 total jobs);  1900 MB/s ; iops: 61555
+150 nodes 16 jobs (2400 total jobs);  1898.3 MB/s ; iops: 61494
+150 nodes 32 jobs (4800 total jobs);  1891.59 MB/s ; iops: 61809
+150 nodes 64 jobs (9600 total jobs);  1884.89 MB/s ; iops: 61611
+150 nodes 2 jobs (300 total jobs);  1876.31 MB/s ; iops: 61199
+150 nodes 4 jobs (600 total jobs);  1836.51 MB/s ; iops: 60005
+128 nodes 8 jobs (1024 total jobs);  1833.85 MB/s ; iops: 58184
+8 nodes 8 jobs (64 total jobs);  1819 MB/s ; iops: 58339
+128 nodes 16 jobs (2048 total jobs);  1717.29 MB/s ; iops: 54633
+128 nodes 32 jobs (4096 total jobs);  1707.67 MB/s ; iops: 53474
+128 nodes 64 jobs (8192 total jobs);  1693.16 MB/s ; iops: 53566
+16 nodes 8 jobs (128 total jobs);  1648.3 MB/s ; iops: 52985
+96 nodes 16 jobs (1536 total jobs);  1639.3 MB/s ; iops: 53769
+8 nodes 2 jobs (16 total jobs);  1536 MB/s ; iops: 49127
+96 nodes 32 jobs (3072 total jobs);  1524.47 MB/s ; iops: 49074
+2 nodes 16 jobs (32 total jobs);  1513 MB/s ; iops: 48462
+32 nodes 16 jobs (512 total jobs);  1495.8 MB/s ; iops: 48957
+96 nodes 8 jobs (768 total jobs);  1466.62 MB/s ; iops: 47838
+2 nodes 8 jobs (16 total jobs);  1461 MB/s ; iops: 46769
+96 nodes 1 jobs (96 total jobs);  1436.82 MB/s ; iops: 45833
+16 nodes 1 jobs (16 total jobs);  1409 MB/s ; iops: 45078
+96 nodes 64 jobs (6144 total jobs);  1363.8 MB/s ; iops: 42221
+32 nodes 32 jobs (1024 total jobs);  1351.8 MB/s ; iops: 43417
+128 nodes 4 jobs (512 total jobs);  1328.07 MB/s ; iops: 42779
+128 nodes 1 jobs (128 total jobs);  1254.31 MB/s ; iops: 39816
+16 nodes 16 jobs (256 total jobs);  1216 MB/s ; iops: 39373
+96 nodes 4 jobs (384 total jobs);  1151.34 MB/s ; iops: 37057
+96 nodes 2 jobs (192 total jobs);  1148.94 MB/s ; iops: 36560
+128 nodes 2 jobs (256 total jobs);  1127.23 MB/s ; iops: 35777
+8 nodes 16 jobs (128 total jobs);  1106 MB/s ; iops: 35721
+4 nodes 8 jobs (32 total jobs);  1036 MB/s ; iops: 33202
+4 nodes 4 jobs (16 total jobs);  1006 MB/s ; iops: 32193
+1 nodes 32 jobs (32 total jobs);  962 MB/s ; iops: 30795
+16 nodes 32 jobs (512 total jobs);  903.5 MB/s ; iops: 28991
+64 nodes 64 jobs (4096 total jobs);  888.3 MB/s ; iops: 27133
+8 nodes 1 jobs (8 total jobs);  853.8 MB/s ; iops: 27281
+2 nodes 4 jobs (8 total jobs);  809 MB/s ; iops: 25878
+2 nodes 32 jobs (64 total jobs);  760 MB/s ; iops: 24310
+4 nodes 16 jobs (64 total jobs);  742 MB/s ; iops: 23890
+8 nodes 32 jobs (256 total jobs);  730.4 MB/s ; iops: 23490
+16 nodes 64 jobs (1024 total jobs);  602.8 MB/s ; iops: 18926
+1 nodes 64 jobs (64 total jobs);  594 MB/s ; iops: 18997
+32 nodes 64 jobs (2048 total jobs);  558.3 MB/s ; iops: 17090
+4 nodes 32 jobs (128 total jobs);  533 MB/s ; iops: 17058
+8 nodes 64 jobs (512 total jobs);  532.3 MB/s ; iops: 16860
+1 nodes 8 jobs (8 total jobs);  498 MB/s ; iops: 15967
+1 nodes 16 jobs (16 total jobs);  496 MB/s ; iops: 15866
+4 nodes 2 jobs (8 total jobs);  490 MB/s ; iops: 15656
+4 nodes 64 jobs (256 total jobs);  485 MB/s ; iops: 15421
+2 nodes 2 jobs (4 total jobs);  444 MB/s ; iops: 14230
+2 nodes 64 jobs (128 total jobs);  443 MB/s ; iops: 14115
+1 nodes 4 jobs (4 total jobs);  221 MB/s ; iops: 7059
+4 nodes 1 jobs (4 total jobs);  203.2 MB/s ; iops: 6505
+2 nodes 1 jobs (2 total jobs);  181.3 MB/s ; iops: 5802
+1 nodes 2 jobs (2 total jobs);  154 MB/s ; iops: 4918
+1 nodes 1 jobs (1 total jobs);  82 MB/s ; iops: 2622

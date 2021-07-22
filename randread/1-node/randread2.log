@@ -1,0 +1,69 @@
+random-readers: (g=0): rw=randread, bs=(R) 32.0KiB-32.0KiB, (W) 32.0KiB-32.0KiB, (T) 32.0KiB-32.0KiB, ioengine=libaio, iodepth=4
+...
+fio-3.27-32-g77c7-dirty
+Starting 2 processes
+
+random-readers: (groupid=0, jobs=1): err= 0: pid=107685: Tue Jul 20 11:20:42 2021
+  read: IOPS=49, BW=1585KiB/s (1623kB/s)(464MiB/300005msec)
+    slat (usec): min=762, max=375270, avg=20168.84, stdev=24796.43
+    clat (usec): min=13, max=474247, avg=60571.57, stdev=49343.27
+     lat (msec): min=3, max=529, avg=80.74, stdev=60.36
+    clat percentiles (msec):
+     |  1.00th=[    5],  5.00th=[   13], 10.00th=[   19], 20.00th=[   26],
+     | 30.00th=[   32], 40.00th=[   38], 50.00th=[   45], 60.00th=[   55],
+     | 70.00th=[   68], 80.00th=[   88], 90.00th=[  124], 95.00th=[  161],
+     | 99.00th=[  243], 99.50th=[  284], 99.90th=[  363], 99.95th=[  380],
+     | 99.99th=[  460]
+   bw (  KiB/s): min=  512, max= 7783, per=50.61%, avg=1585.20, stdev=972.83, samples=300
+   iops        : min=   10, max=  250, avg=49.52, stdev=31.43, samples=600
+  lat (usec)   : 20=0.01%
+  lat (msec)   : 4=0.94%, 10=2.38%, 20=8.28%, 50=43.62%, 100=29.05%
+  lat (msec)   : 250=14.91%, 500=0.82%
+  cpu          : usr=0.09%, sys=1.20%, ctx=14870, majf=0, minf=70
+  IO depths    : 1=0.1%, 2=0.1%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=14859,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+random-readers: (groupid=0, jobs=1): err= 0: pid=107686: Tue Jul 20 11:20:42 2021
+  read: IOPS=48, BW=1547KiB/s (1584kB/s)(453MiB/300025msec)
+    slat (usec): min=811, max=331738, avg=20664.91, stdev=24762.67
+    clat (usec): min=23, max=462009, avg=62063.40, stdev=48486.22
+     lat (msec): min=3, max=537, avg=82.73, stdev=58.81
+    clat percentiles (msec):
+     |  1.00th=[    5],  5.00th=[   15], 10.00th=[   21], 20.00th=[   28],
+     | 30.00th=[   33], 40.00th=[   39], 50.00th=[   47], 60.00th=[   58],
+     | 70.00th=[   71], 80.00th=[   91], 90.00th=[  126], 95.00th=[  157],
+     | 99.00th=[  245], 99.50th=[  279], 99.90th=[  334], 99.95th=[  376],
+     | 99.99th=[  439]
+   bw (  KiB/s): min=  576, max= 7015, per=49.40%, avg=1547.12, stdev=872.97, samples=300
+   iops        : min=   12, max=  238, avg=48.33, stdev=28.48, samples=600
+  lat (usec)   : 50=0.01%
+  lat (msec)   : 4=0.64%, 10=1.81%, 20=7.05%, 50=44.04%, 100=29.94%
+  lat (msec)   : 250=15.63%, 500=0.88%
+  cpu          : usr=0.12%, sys=1.17%, ctx=14511, majf=0, minf=71
+  IO depths    : 1=0.1%, 2=0.1%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=14503,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+
+Run status group 0 (all jobs):
+   READ: bw=3132KiB/s (3207kB/s), 1547KiB/s-1585KiB/s (1584kB/s-1623kB/s), io=918MiB (962MB), run=300005-300025msec
+
+
+Batch Job Summary Report (version 21.01.1) for Job "fioRandRead" (1471012) on tave
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2021-07-20T11:15:38 2021-07-20T11:15:38 2021-07-20T11:15:38 2021-07-20T11:20:44   00:05:06   00:15:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    afilipci         g138       normal        1     38.721 kJ
+
