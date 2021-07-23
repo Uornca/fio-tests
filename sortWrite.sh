@@ -16,13 +16,14 @@ do
 			fi
 		done
 		sed -i 's/.$//' tmpSort
-		awk '{total+=$1} END {print total}' tmpSort >> tmpSort
+		awk '{total += $1} END {print total}' tmpSort >> tmpSort
 		echo -n "$b nodes $a jobs ($(($b*$a)) total jobs); " >> tmpSortA
 		echo -n " $(tail -n 1 tmpSort) MB/s ; iops: " >> tmpSortA
 		tail -n 1 tmpSort >> randwrite/bws/bw$b
 
 		grep IOPS randwrite/$b-node/randwrite$a.log | cut -d = -f 2 | cut -d , -f 1 > randwrite/$b-node/iops$a
-		awk '{n += $1}; END{print n}' randwrite/$b-node/iops$a >> tmpSortA
+		awk '{total += $1} END {print total}' randwrite/$b-node/iops$a >> randwrite/$b-node/iops$a
+		tail -n 1 randread/$b-node/iops$a >> tmpSortA
 		rm tmpSort
 	done
 done

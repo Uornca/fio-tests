@@ -28,13 +28,14 @@ do
 		done
 
 		sed -i 's/.$//' tmpSort
-		awk '{total+=$1} END {print total}' tmpSort >> tmpSort
+		awk '{total += $1} END {print total}' tmpSort >> tmpSort
 		echo -n "$b nodes $a jobs ($(($b*$a)) total jobs); " >> tmpSortA
 		echo -n " $(tail -n 1 tmpSort) MB/s ; iops: " >> tmpSortA
 		tail -n 1 tmpSort >> randrw/bws/bw$b
 
 		grep IOPS randrw/$b-node/randrw$a.log | cut -d = -f 2 | cut -d , -f 1 > randrw/$b-node/iops$a
-		awk '{n += $1}; END{print n}' randrw/$b-node/iops$a >> tmpSortA
+		awk '{total += $1} END {print total}' randrw/$b-node/iops$a >> randrw/$b-node/iops$a
+		tail -n 1 randrw/$b-node/iops$a >> tmpSortA
 		rm tmpSort
 	done
 done
