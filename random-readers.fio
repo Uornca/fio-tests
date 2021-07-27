@@ -1,0 +1,13 @@
+[random-readers]
+directory=/scratch/snx2000/afilipci
+filename_format=$jobname.${SLURM_NODEID}.$jobnum.$filenum
+unique_filename=1
+ioengine=libaio
+iodepth=4
+time_based=1
+runtime=300
+rw=randread
+bs=32k
+direct=0
+size=1g
+numjobs=1
